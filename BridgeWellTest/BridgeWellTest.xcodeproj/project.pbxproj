@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229BC18E2B4BAC53008E1036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC18D2B4BAC53008E1036 /* AppDelegate.swift */; };
+		229BC1902B4BAC53008E1036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC18F2B4BAC53008E1036 /* SceneDelegate.swift */; };
+		229BC1922B4BAC53008E1036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC1912B4BAC53008E1036 /* ViewController.swift */; };
+		229BC1952B4BAC53008E1036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229BC1932B4BAC53008E1036 /* Main.storyboard */; };
+		229BC1972B4BAC54008E1036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229BC1962B4BAC54008E1036 /* Assets.xcassets */; };
+		229BC19A2B4BAC54008E1036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229BC1982B4BAC54008E1036 /* LaunchScreen.storyboard */; };
+		229BC1C42B4BD410008E1036 /* BridgeWellSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC1C12B4BD40F008E1036 /* BridgeWellSDK.swift */; };
+		229BC1C52B4BD410008E1036 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC1C22B4BD40F008E1036 /* Post.swift */; };
+		229BC1C62B4BD410008E1036 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC1C32B4BD410008E1036 /* Comment.swift */; };
+		229BC1CB2B4BD4FC008E1036 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229BC1C92B4BD4FC008E1036 /* PostTableViewCell.swift */; };
+		229BC1CC2B4BD4FC008E1036 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229BC1CA2B4BD4FC008E1036 /* PostTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		229BC18A2B4BAC53008E1036 /* BridgeWellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeWellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229BC18D2B4BAC53008E1036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229BC18F2B4BAC53008E1036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		229BC1912B4BAC53008E1036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229BC1942B4BAC53008E1036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229BC1962B4BAC54008E1036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229BC1992B4BAC54008E1036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229BC19B2B4BAC54008E1036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229BC1C12B4BD40F008E1036 /* BridgeWellSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeWellSDK.swift; sourceTree = "<group>"; };
+		229BC1C22B4BD40F008E1036 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		229BC1C32B4BD410008E1036 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		229BC1C92B4BD4FC008E1036 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		229BC1CA2B4BD4FC008E1036 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229BC1872B4BAC53008E1036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229BC1812B4BAC53008E1036 = {
+			isa = PBXGroup;
+			children = (
+				229BC18C2B4BAC53008E1036 /* BridgeWellTest */,
+				229BC18B2B4BAC53008E1036 /* Products */,
+				229BC1A12B4BAD12008E1036 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		229BC18B2B4BAC53008E1036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229BC18A2B4BAC53008E1036 /* BridgeWellTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229BC18C2B4BAC53008E1036 /* BridgeWellTest */ = {
+			isa = PBXGroup;
+			children = (
+				229BC18D2B4BAC53008E1036 /* AppDelegate.swift */,
+				229BC18F2B4BAC53008E1036 /* SceneDelegate.swift */,
+				229BC1C02B4BD3F7008E1036 /* SDK Part */,
+				229BC1C72B4BD428008E1036 /* Controller */,
+				229BC1C82B4BD438008E1036 /* View */,
+				229BC1962B4BAC54008E1036 /* Assets.xcassets */,
+				229BC1982B4BAC54008E1036 /* LaunchScreen.storyboard */,
+				229BC19B2B4BAC54008E1036 /* Info.plist */,
+			);
+			path = BridgeWellTest;
+			sourceTree = "<group>";
+		};
+		229BC1A12B4BAD12008E1036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229BC1C02B4BD3F7008E1036 /* SDK Part */ = {
+			isa = PBXGroup;
+			children = (
+				229BC1C12B4BD40F008E1036 /* BridgeWellSDK.swift */,
+				229BC1C32B4BD410008E1036 /* Comment.swift */,
+				229BC1C22B4BD40F008E1036 /* Post.swift */,
+			);
+			path = "SDK Part";
+			sourceTree = "<group>";
+		};
+		229BC1C72B4BD428008E1036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				229BC1912B4BAC53008E1036 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		229BC1C82B4BD438008E1036 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				229BC1932B4BAC53008E1036 /* Main.storyboard */,
+				229BC1CD2B4BD558008E1036 /* Table View Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		229BC1CD2B4BD558008E1036 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				229BC1C92B4BD4FC008E1036 /* PostTableViewCell.swift */,
+				229BC1CA2B4BD4FC008E1036 /* PostTableViewCell.xib */,
+			);
+			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229BC1892B4BAC53008E1036 /* BridgeWellTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229BC19E2B4BAC54008E1036 /* Build configuration list for PBXNativeTarget "BridgeWellTest" */;
+			buildPhases = (
+				229BC1862B4BAC53008E1036 /* Sources */,
+				229BC1872B4BAC53008E1036 /* Frameworks */,
+				229BC1882B4BAC53008E1036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgeWellTest;
+			productName = BridgeWellTest;
+			productReference = 229BC18A2B4BAC53008E1036 /* BridgeWellTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229BC1822B4BAC53008E1036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					229BC1892B4BAC53008E1036 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 229BC1852B4BAC53008E1036 /* Build configuration list for PBXProject "BridgeWellTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229BC1812B4BAC53008E1036;
+			productRefGroup = 229BC18B2B4BAC53008E1036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229BC1892B4BAC53008E1036 /* BridgeWellTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229BC1882B4BAC53008E1036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BC19A2B4BAC54008E1036 /* LaunchScreen.storyboard in Resources */,
+				229BC1972B4BAC54008E1036 /* Assets.xcassets in Resources */,
+				229BC1952B4BAC53008E1036 /* Main.storyboard in Resources */,
+				229BC1CC2B4BD4FC008E1036 /* PostTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229BC1862B4BAC53008E1036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BC1CB2B4BD4FC008E1036 /* PostTableViewCell.swift in Sources */,
+				229BC1922B4BAC53008E1036 /* ViewController.swift in Sources */,
+				229BC1C62B4BD410008E1036 /* Comment.swift in Sources */,
+				229BC1C42B4BD410008E1036 /* BridgeWellSDK.swift in Sources */,
+				229BC18E2B4BAC53008E1036 /* AppDelegate.swift in Sources */,
+				229BC1902B4BAC53008E1036 /* SceneDelegate.swift in Sources */,
+				229BC1C52B4BD410008E1036 /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		229BC1932B4BAC53008E1036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229BC1942B4BAC53008E1036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229BC1982B4BAC54008E1036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229BC1992B4BAC54008E1036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229BC19C2B4BAC54008E1036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229BC19D2B4BAC54008E1036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229BC19F2B4BAC54008E1036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				FRAMEWORK_SEARCH_PATHS = "/Users/macos/Library/Developer/Xcode/DerivedData/BridgewellSDK-ftozmuebnmgsnegilpxylsliveko/Build";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridgeWellTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyen.BridgeWellTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229BC1A02B4BAC54008E1036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B24EEZ8S3G;
+				FRAMEWORK_SEARCH_PATHS = "/Users/macos/Library/Developer/Xcode/DerivedData/BridgewellSDK-ftozmuebnmgsnegilpxylsliveko/Build";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BridgeWellTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tainguyen.BridgeWellTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229BC1852B4BAC53008E1036 /* Build configuration list for PBXProject "BridgeWellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229BC19C2B4BAC54008E1036 /* Debug */,
+				229BC19D2B4BAC54008E1036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229BC19E2B4BAC54008E1036 /* Build configuration list for PBXNativeTarget "BridgeWellTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229BC19F2B4BAC54008E1036 /* Debug */,
+				229BC1A02B4BAC54008E1036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229BC1822B4BAC53008E1036 /* Project object */;
+}
